@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <script>
+        function calcularIMC(){
+            //1. Receber os dados dos campos altura e peso
+            let altura = document.getElementById("campoAltura").value;
+            let peso = document.getElementById("campoPeso").value;
+
+            console.log("altura: " + altura);
+            console.log("peso: " + peso);
+
+            //2 Realizar o calculo do IMC
+            imc = peso / (altura * altura);
+
+            console.log(imc);
+        }
+    </script>
+</head>
+<body>
+    <div><h1>Calculadora IMC</h1></div>
+
+    <div>Altura</div>
+    <div><input></div>
+
+    <div>Peso</div>
+    <div><input></div>]
+
+    <div><button>Calcular</button></div>
+
+    <div>?????</div>
+</body>
+</html>
